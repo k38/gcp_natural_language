@@ -1,0 +1,106 @@
+{
+    "statusCode": 200,
+    "body": {
+        "entities": [
+            {
+                "name": "Multiregion",
+                "type": "OTHER",
+                "metadata": {},
+                "salience": 0.6079041,
+                "mentions": [
+                    {
+                        "text": {
+                            "content": "Multiregion",
+                            "beginOffset": -1
+                        },
+                        "type": "PROPER"
+                    }
+                ]
+            },
+            {
+                "name": "training",
+                "type": "OTHER",
+                "metadata": {},
+                "salience": 0.20778877,
+                "mentions": [
+                    {
+                        "text": {
+                            "content": "training",
+                            "beginOffset": -1
+                        },
+                        "type": "COMMON"
+                    }
+                ]
+            },
+            {
+                "name": "AWS Batch",
+                "type": "CONSUMER_GOOD",
+                "metadata": {},
+                "salience": 0.11951723,
+                "mentions": [
+                    {
+                        "text": {
+                            "content": "AWS Batch",
+                            "beginOffset": -1
+                        },
+                        "type": "PROPER"
+                    }
+                ]
+            },
+            {
+                "name": "Amazon SageMaker",
+                "type": "ORGANIZATION",
+                "metadata": {
+                    "mid": "/g/11h3yhqxn_",
+                    "wikipedia_url": "https://en.wikipedia.org/wiki/Amazon_SageMaker"
+                },
+                "salience": 0.06478993,
+                "mentions": [
+                    {
+                        "text": {
+                            "content": "Amazon SageMaker",
+                            "beginOffset": -1
+                        },
+                        "type": "PROPER"
+                    }
+                ]
+            }
+        ],
+        "language": "en"
+    },
+    "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+        "date": "Mon, 30 Sep 2019 14:46:03 GMT",
+        "server": "ESF",
+        "cache-control": "private",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000",
+        "accept-ranges": "none",
+        "connection": "close"
+    },
+    "request": {
+        "uri": {
+            "protocol": "https:",
+            "slashes": true,
+            "auth": null,
+            "host": "language.googleapis.com",
+            "port": 443,
+            "hostname": "language.googleapis.com",
+            "hash": null,
+            "search": "?key={apikey}",
+            "query": "key={apikey}",
+            "pathname": "/v1/documents:analyzeEntities",
+            "path": "/v1/documents:analyzeEntities?key={apikey}",
+            "href": "https://language.googleapis.com/v1/documents:analyzeEntities?key={apikey}"
+        },
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json",
+            "accept": "application/json",
+            "content-length": 126
+        }
+    }
+}
