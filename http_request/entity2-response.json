@@ -1,0 +1,68 @@
+{
+    "entities": [
+      {
+        "name": "Multiregion",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6079041,
+        "mentions": [
+          {
+            "text": {
+              "content": "Multiregion",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "training",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20778877,
+        "mentions": [
+          {
+            "text": {
+              "content": "training",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "AWS Batch",
+        "type": "CONSUMER_GOOD",
+        "metadata": {},
+        "salience": 0.11951723,
+        "mentions": [
+          {
+            "text": {
+              "content": "AWS Batch",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Amazon SageMaker",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/g/11h3yhqxn_",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Amazon_SageMaker"
+        },
+        "salience": 0.06478993,
+        "mentions": [
+          {
+            "text": {
+              "content": "Amazon SageMaker",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en"
+}
